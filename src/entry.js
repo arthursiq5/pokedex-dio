@@ -1,1 +1,1 @@
-console.log("entry app!!");
+import 'normalize.css';
