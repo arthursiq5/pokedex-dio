@@ -1,9 +1,10 @@
 import 'normalize.css';
 import '../css/global.css'
+import '../css/pokemon.css'
 import { getPokemons } from './pokedex-api'
 
 const pokemonToLi = (pokemon) => {
-    return `<li>
+    return `<li class="pokemon ${pokemon.type}">
         <span class="number">${pokemon.number}</span>
         <span class="name">${pokemon.name}</span>
         <div class="detail">
